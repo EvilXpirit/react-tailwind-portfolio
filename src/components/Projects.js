@@ -47,7 +47,7 @@ export const Projects = () => {
       title: "Portfolio Website",
       description: "React Js project",
       imgUrl: projImg6,
-      projectUrl: "#home",
+      projectUrl: "https://github.com/EvilXpirit/Portfolio",
     },
   ];
 
