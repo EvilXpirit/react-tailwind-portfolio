@@ -350,17 +350,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Projects Css ************/
-.project {
+.projects {
   padding: 80px 0;
   position: relative;
   background-color: black;
 }
-.project h2 {
+.projects h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
 }
-.project p {
+.projects p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -369,17 +369,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
-.project .nav.nav-pills {
+.projects .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
-.project .nav.nav-pills .nav-item {
+.projects .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
-.project .nav.nav-pills .nav-link {
+.projects .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -393,7 +393,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
-.project .nav.nav-pills .nav-link::before {
+.projects .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
     width: 0;
@@ -404,10 +404,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -1;
     transition: 0.3s ease-in-out;
 }
-.project .nav.nav-pills .nav-link.active::before {
+.projects .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.project .nav.nav-pills .nav-link.active {
+.projects .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
 }
 .nav-link#projects-tabs-tab-first {
@@ -475,6 +475,51 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+
+/************ Experience Css ************/
+/* Keep your existing CSS code */
+/* ... */
+
+.experience {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.experience-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+.experience h2 {
+  font-size: 36px; /* Slightly reduce font size for a more balanced look */
+  font-weight: 700;
+  color: #fff; /* Make the title text white */
+  padding-bottom: 2rem;
+}
+
+.experience p {
+  color: #b8b8b8;
+  font-size: 16px; /* Slightly reduce font size for better readability */
+  letter-spacing: 0.8px; /* Adjust letter spacing */
+  line-height: 1.6em; /* Increase line height for better readability */
+  margin: 14px 0 30px 0; /* Reduce bottom margin for a more compact layout */
+}
+
+.background-image-left {
+  top: 25%; /* Adjust top position for better visual alignment */
+  position: absolute;
+  bottom: 0;
+  width: 35%; /* Reduce the width for better balance */
+  z-index: -4;
+  opacity: 0.5; /* Add a bit of transparency to the background image */
+}
+
+/************ Experience Css ************/
+
 
 /************ Projects Css ************/
 .contact {
