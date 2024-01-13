@@ -54,7 +54,7 @@ export const NavBar = () => {
                 <a href="https://github.com/EvilXpirit" target="_blank"><img src={navIcon2} alt="" /></a>
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
-              <button className="vvd"><span>Connect With me</span></button>
+              <a href='mailto:adsharma122@gmail.com'><button className="vvd"><span>Connect With me</span></button></a>
           </span>
         </Navbar.Collapse>
       </Container>
