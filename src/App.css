@@ -235,6 +235,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+/* @media (min-width: 992px) {
+  nav.navbar .navbar-toggler {
+    display: none !important;
+  }
+} */
+
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -348,6 +355,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+
+
 
 /************ Projects Css ************/
 .projects {
