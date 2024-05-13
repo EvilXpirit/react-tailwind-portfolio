@@ -29,7 +29,7 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill mb-5" id="skills">
         <div className="container">
             <div className="row">
                 <div className="col-12">
@@ -39,19 +39,19 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>ReactJs</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Machine Learning</h5>
+                                <h5>HTML5</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Java Programming</h5>
+                                <h5>CSS3</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Python Programming</h5>
+                                <h5>Java Script</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
