@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+// import headerImg from "../assets/img/header-img.svg";
 import headerImg from "../assets/img/my_banner2.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
+// import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
@@ -47,29 +50,29 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
-      <div className="container mx-auto">
-        <div className="md:flex items-center">
-          <div className="md:w-1/2">
+      <Container>
+        <Row className="aligh-items-center">
+          <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Welcome to my Portfolio</span>
-                  <h1 className="text-3xl md:text-5xl font-bold">Hi There! <br/> I'm Aditya<br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p className="text-gray-700">A self-motivated and passionate Student perusing B. Tech degree in Computer Science with specialization in Data Science at ABESIT Ghaziabad. Looking for opportunities to expand my experience through Internships, jobs and work-study positions. Seeking to use my knowledge of web development, programming and other technical skills in developing successful projects.</p>
-                  <button onClick={() => console.log('connect')} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">Let’s Connect <ArrowRightCircle size={25} className="ml-2" /></button>
-                </div>}
+              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <span className="tagline">Welcome to my Portfolio</span>
+                <h1><span>{`Hi There!`}</span> <br/> <span>{`I'm Aditya`}</span><br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>A self-motivated and passionate Student perusing B. Tech degree in Computer Science with specialization in Data Science at ABESIT Ghaziabad. Looking for opportunities to expand my experience through Internships, jobs and work-study positions. Seeking to use my knowledge of web development, programming and other technical skills in developing successful projects.</p>
+                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+              </div>}
             </TrackVisibility>
-          </div>
-          <div className="md:w-1/2">
+          </Col>
+          <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img" className="mx-auto" />
+                  <img src={headerImg} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   )
 }
