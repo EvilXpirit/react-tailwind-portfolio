@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-tailwind-portfolio/static/css/main.955461af.css",
-    "main.js": "/react-tailwind-portfolio/static/js/main.636fa606.js",
+    "main.css": "/react-tailwind-portfolio/static/css/main.5d573750.css",
+    "main.js": "/react-tailwind-portfolio/static/js/main.78d507b3.js",
     "static/js/787.2dcca737.chunk.js": "/react-tailwind-portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/project-3.png": "/react-tailwind-portfolio/static/media/project-3.0b54fbc5f353b0047920.png",
     "static/media/project-1.png": "/react-tailwind-portfolio/static/media/project-1.b887079aba5a6d6ffebe.png",
@@ -34,12 +34,12 @@
     "static/media/nav-icon1.svg": "/react-tailwind-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/arrow2.svg": "/react-tailwind-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/react-tailwind-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.955461af.css.map": "/react-tailwind-portfolio/static/css/main.955461af.css.map",
-    "main.636fa606.js.map": "/react-tailwind-portfolio/static/js/main.636fa606.js.map",
+    "main.5d573750.css.map": "/react-tailwind-portfolio/static/css/main.5d573750.css.map",
+    "main.78d507b3.js.map": "/react-tailwind-portfolio/static/js/main.78d507b3.js.map",
     "787.2dcca737.chunk.js.map": "/react-tailwind-portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.955461af.css",
-    "static/js/main.636fa606.js"
+    "static/css/main.5d573750.css",
+    "static/js/main.78d507b3.js"
   ]
 }
