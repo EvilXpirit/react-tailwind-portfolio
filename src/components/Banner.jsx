@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import headerImg from "../assets/img/my_banner2.svg";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowRightCircle, ArrowDownCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 
 export const Banner = () => {
@@ -59,7 +59,7 @@ export const Banner = () => {
   };
 
   return (
-    <section className="banner pt-20 pb-20" id="home">
+    <section className="banner pt-32 pb-20" id="home">
       <div className="container mx-auto">
         <div className="md:flex items-center">
           <div className="md:w-1/2">
@@ -96,13 +96,23 @@ export const Banner = () => {
                     team where I can contribute my expertise and further develop
                     my skills
                   </p>
-                  <button
-                    onClick={() => console.log("connect")}
-                    className="text-white font-bold py-2 rounded inline-flex items-center"
-                  >
-                    Let’s Connect{" "}
-                    <ArrowRightCircle size={25} className="ml-2" />
-                  </button>
+                  <div className="buttons flex lg:flex-row flex-col gap-x-24 mb-5">
+                    <button
+                      onClick={() => console.log("connect")}
+                      className="text-white font-bold inline-flex items-center"
+                    >
+                      Let’s Connect{" "}
+                      <ArrowRightCircle size={25} className="ml-2" />
+                    </button>
+                    <a
+                      href="https://drive.google.com/file/d/1-4SJhqPwPoHfLVxUacAU20N5BYfF_pQ1/view?usp=sharing"
+                      className="text-white font-bold inline-flex items-center no-underline"
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                    >
+                      Resume <ArrowDownCircle size={25} className="ml-2" />
+                    </a>
+                  </div>
                 </div>
               )}
             </TrackVisibility>
