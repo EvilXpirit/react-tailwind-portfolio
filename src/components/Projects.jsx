@@ -11,6 +11,7 @@ import projImg8 from "../assets/img/project-8.png";
 import projImg9 from "../assets/img/project-9.png";
 import projImg10 from "../assets/img/project-10.png";
 import projImg11 from "../assets/img/project-11.png";
+import projImg12 from "../assets/img/project-13.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -19,28 +20,34 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Book Store Web Application",
+      description: "MERN Stack Project",
+      imgUrl: projImg12,
+      projectUrl: "https://book-shelter-mern.vercel.app/",
+    },
+    {
       title: "Osteo Fracture Identification",
       description: "Machine learning Final Year Project",
       imgUrl: projImg1,
       projectUrl: "https://github.com/EvilXpirit/Currency-Converter",
     },
     {
-      title: "expense Management System",
+      title: "Expense Management System",
       description: "Internship project",
       imgUrl: projImg2,
       projectUrl: "https://github.com/EvilXpirit/BRUH-calculator",
     },
     {
-      title: "Timer",
-      description: "Javascript project",
+      title: "Tribute Website",
+      description: "ReactJs project",
       imgUrl: projImg3,
-      projectUrl: "https://github.com/EvilXpirit/Batman-Timer",
+      projectUrl: "https://github.com/EvilXpirit/Tribute-Website",
     },
     {
       title: "Legal Advisor System",
       description: "Machine Learning Project",
       imgUrl: projImg5,
-      // projectUrl: "#",
+      projectUrl: "https://github.com/EvilXpirit/Legal-Advisor-System",
     },
     {
       title: "Movie Recommender System",
