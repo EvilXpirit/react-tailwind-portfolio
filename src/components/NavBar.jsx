@@ -69,6 +69,12 @@ export const NavBar = () => {
             >
               Experience
             </Nav.Link>
+            <Nav.Link
+              href="https://drive.google.com/file/d/1-4SJhqPwPoHfLVxUacAU20N5BYfF_pQ1/view?usp=sharing" target="_blank"
+              className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'}
+            >
+              Resume
+            </Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
