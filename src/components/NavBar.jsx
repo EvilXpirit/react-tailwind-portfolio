@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon4.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import brandLogo from '../assets/img/Aditya Sharma logo 4.png';
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -37,7 +38,9 @@ export const NavBar = () => {
       onToggle={(expanded) => setExpanded(expanded)}
     >
       <Container>
-        <Navbar.Brand href="#home" className="brand">Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#home" className="brand">
+        <img src={brandLogo} alt="" />
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className={`${expanded ? 'bg-cyan-800/50 h-fit pt-4 backdrop-blur-sm rounded' : ''} lg:bg-transparent`}>
           <Nav className="me-auto">
