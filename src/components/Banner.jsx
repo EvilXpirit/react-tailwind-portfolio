@@ -72,7 +72,7 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1 className="text-3xl md:text-5xl font-bold">
-                    Hi There! <br /> I'm Aditya
+                    Hi There! <br /> I'm Aditya Sharma
                     <br />{" "}
                     <span
                       className="txt-rotate"
@@ -125,7 +125,7 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
                 >
-                  <img src={headerImg} alt="Header Img" className="mx-auto" />
+                  <img src={headerImg} alt="Header Img" className="mx-auto lg:w-11/12" />
                 </div>
               )}
             </TrackVisibility>
