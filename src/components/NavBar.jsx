@@ -71,7 +71,7 @@ export const NavBar = () => {
             </Nav.Link>
             <Nav.Link
               href="https://drive.google.com/file/d/1-4SJhqPwPoHfLVxUacAU20N5BYfF_pQ1/view?usp=sharing" target="_blank"
-              className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'}
+              className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}
             >
               Resume
             </Nav.Link>
