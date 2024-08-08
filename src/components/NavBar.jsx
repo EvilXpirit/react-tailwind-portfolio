@@ -39,11 +39,11 @@ export const NavBar = () => {
     >
       <Container>
         <Navbar.Brand href="#home" className="brand">
-        <img src={brandLogo} alt="" />
+        <img src={brandLogo} alt="" className="h-10 md:h-12 lg:h-12" />
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className={`${expanded ? 'bg-cyan-800/50 h-fit pt-4 backdrop-blur-sm rounded' : ''} lg:bg-transparent`}>
-          <Nav className="me-auto">
+          <Nav className="me-auto ms-4">
             <Nav.Link
               href="#home"
               className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}

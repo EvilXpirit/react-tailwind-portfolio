@@ -95,13 +95,15 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
-nav.navbar a.navbar-brand {
+
+/* nav.navbar a.navbar-brand {
   font-size: 25px;
   font-family: centra;
   font-weight: 700;
   width: 16%;
   color: #fff;
-}
+} */
+
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
