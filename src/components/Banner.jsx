@@ -105,7 +105,7 @@ export const Banner = () => {
                       <ArrowRightCircle size={25} className="ml-2" />
                     </button>
                     <a
-                      href="https://drive.google.com/file/d/1-4SJhqPwPoHfLVxUacAU20N5BYfF_pQ1/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1-O3QxaFCNVLjhXlxK8ja_GfBA3QqyaG5/view?usp=sharing"
                       className="text-white font-bold inline-flex items-center no-underline"
                       target="_blank" 
                       rel="noopener noreferrer" 

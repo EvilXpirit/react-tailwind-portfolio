@@ -32,14 +32,14 @@ export const NavBar = () => {
 
   return (
     <Navbar
-      expand="lg"
+      expand="xl"
       className={`fixed-top ${scrolled ? "scrolled" : ""}`}
       expanded={expanded}
       onToggle={(expanded) => setExpanded(expanded)}
     >
       <Container>
         <Navbar.Brand href="#home" className="brand">
-        <img src={brandLogo} alt="" className="h-10 md:h-12 lg:h-12" />
+        <img src={brandLogo} alt="" className="h-10 md:h-10 sm:h-10 lg:h-12" />
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className={`${expanded ? 'bg-cyan-800/50 h-fit pt-4 backdrop-blur-sm rounded' : ''} lg:bg-transparent`}>
@@ -73,7 +73,7 @@ export const NavBar = () => {
               Experience
             </Nav.Link>
             <Nav.Link
-              href="https://drive.google.com/file/d/1-4SJhqPwPoHfLVxUacAU20N5BYfF_pQ1/view?usp=sharing" target="_blank"
+              href="https://drive.google.com/file/d/1-O3QxaFCNVLjhXlxK8ja_GfBA3QqyaG5/view?usp=sharing" target="_blank"
               className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}
             >
               Resume
