@@ -7,7 +7,7 @@ const ExperienceList = ({ experiences }) => {
         {experiences.map((experience, index) => (
           <li key={index} className="flex flex-col-reverse md:flex-row items-start md:items-center">
             <div className="md:w-1/4 text-left lg:text-center flex md:flex-col flex-col-reverse">
-              <p className="text-lg font-medium text-gray-600">{experience.duration}</p>
+              <p className="text-lg font-medium text-gray-300">{experience.duration}</p>
               <p className="text-sm text-gray-400 mt-3 md:mt-4">{experience.from}</p>
             </div>
             <div className="md:w-1/12 flex justify-center items-center">
