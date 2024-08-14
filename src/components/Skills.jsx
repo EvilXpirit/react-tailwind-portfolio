@@ -6,6 +6,10 @@ import nodejsLogo from "../assets/skills logos/nodejs-logo.png";
 import expressjsLogo from "../assets/skills logos/expressjs-logo.png";
 import mongodbLogo from "../assets/skills logos/mongodb-logo.png";
 import JavaLogo from "../assets/skills logos/java-logo.png";
+import HtmlLogo from "../assets/skills logos/html-logo.png";
+import CssLogo from "../assets/skills logos/css-logo.png";
+import TailwindLogo from "../assets/skills logos/tailwind-logo.png";
+import jsLogo from "../assets/skills logos/javascript-logo.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
@@ -54,6 +58,22 @@ export const Skills = () => {
       logo: JavaLogo,
       name: "Java Programming",
     },
+    {
+      logo: HtmlLogo,
+      name: "HTML5",
+    },
+    {
+      logo: CssLogo,
+      name: "CSS6",
+    },
+    {
+      logo: TailwindLogo,
+      name: "Tailwind CSS",
+    },
+    {
+      logo: jsLogo,
+      name: "JavaScript",
+    },
   ];
 
   return (
@@ -74,7 +94,9 @@ export const Skills = () => {
               >
                 {skills.map((skill, index) => (
                   <div className="item">
-                    <img src={skill.logo} className="rounded-full hover:bg-white duration-200 ease-in-out" alt="Image" />
+                    <div className="logos place-content-center">
+                    <img src={skill.logo} className="rounded-full hover:bg-white duration-200 ease-in-out object-cover object-center" alt="Image" />
+                    </div>
                     <h5>{skill.name}</h5>
                   </div>
                 ))}
