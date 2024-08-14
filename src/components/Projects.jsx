@@ -59,37 +59,37 @@ export const Projects = () => {
       title: "Portfolio Website",
       description: "React Js project",
       imgUrl: projImg6,
-      projectUrl: "https://github.com/EvilXpirit/Portfolio",
+      projectUrl: "https://github.com/EvilXpirit/react-tailwind-portfolio",
     },
     {
       title: "Parallel Wireless Website",
       description: "Internship project",
       imgUrl: projImg7,
-      projectUrl: "https://github.com/EvilXpirit/Portfolio",
+      projectUrl: "https://parallel-wireless-delta.vercel.app/",
     },
     {
       title: "Student Registration Form with progress Bar",
       description: "Internship project",
       imgUrl: projImg8,
-      projectUrl: "https://github.com/EvilXpirit/Portfolio",
+      projectUrl: "https://github.com/EvilXpirit/Student-Registration-Form",
     },
     {
       title: "Medical Website",
       description: "Internship project",
       imgUrl: projImg9,
-      projectUrl: "https://github.com/EvilXpirit/Portfolio",
+      projectUrl: "https://evilxpirit.github.io/Medical-Website/",
     },
     {
       title: "Currency Converter",
       description: "Javascript project",
       imgUrl: projImg10,
-      projectUrl: "https://github.com/EvilXpirit/Portfolio",
+      projectUrl: "https://github.com/EvilXpirit/Currency-Converter",
     },
     {
       title: "Bruh Calculator",
       description: "Javascript project",
       imgUrl: projImg11,
-      projectUrl: "https://github.com/EvilXpirit/Portfolio",
+      projectUrl: "https://github.com/EvilXpirit/BRUH-calculator",
     },
   ];
 

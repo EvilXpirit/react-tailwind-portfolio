@@ -102,7 +102,7 @@ export const Banner = () => {
                       className="text-white font-bold inline-flex items-center"
                     >
                       Let’s Connect{" "}
-                      <ArrowRightCircle size={25} className="ml-2" />
+                      <ArrowRightCircle size={25} className="ml-2 hover:animate-pulse" />
                     </button>
                     <a
                       href="https://drive.google.com/file/d/1-O3QxaFCNVLjhXlxK8ja_GfBA3QqyaG5/view?usp=sharing"
@@ -110,7 +110,7 @@ export const Banner = () => {
                       target="_blank" 
                       rel="noopener noreferrer" 
                     >
-                      Resume <ArrowDownCircle size={25} className="ml-2" />
+                      Resume <ArrowDownCircle size={25} className="ml-2 hover:animate-bounce" />
                     </a>
                   </div>
                 </div>
