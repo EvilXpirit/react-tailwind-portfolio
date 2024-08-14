@@ -527,11 +527,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .background-image-left {
-  top: 25%; /* Adjust top position for better visual alignment */
+  top: 25%; 
   position: absolute;
   bottom: 0;
-  width: 35%; /* Reduce the width for better balance */
+  /* width: 35%; */
+  width: 100%;
+  height: 90%;
   z-index: -4;
+  /* z-index: 0; */
   opacity: 0.5; /* Add a bit of transparency to the background image */
 }
 
@@ -612,7 +615,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 70px 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
