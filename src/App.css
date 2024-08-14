@@ -498,32 +498,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* ... */
 
 .experience {
-  padding: 0 0 50px 0;
-  position: relative;
+  /* padding: 0 0 50px 0;
+  position: relative; */
 }
 
 .experience-bx {
   background: #151515;
   border-radius: 64px;
-  text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  /* text-align: center; */
+  /* padding: 60px 50px; */
+  /* margin-top: -60px; */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .experience h2 {
   font-size: 36px; /* Slightly reduce font size for a more balanced look */
   font-weight: 700;
   color: #fff; /* Make the title text white */
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .experience p {
   color: #b8b8b8;
-  font-size: 16px; /* Slightly reduce font size for better readability */
-  letter-spacing: 0.8px; /* Adjust letter spacing */
-  line-height: 1.6em; /* Increase line height for better readability */
-  margin: 14px 0 30px 0; /* Reduce bottom margin for a more compact layout */
+  font-size: 16px; 
+  letter-spacing: 0.8px;
+  line-height: 1.6em;
+  /* margin: 14px 0 30px 0;  */
 }
 
 .background-image-left {
