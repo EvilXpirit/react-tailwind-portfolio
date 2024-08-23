@@ -12,6 +12,7 @@ import projImg9 from "../assets/img/project-9.png";
 import projImg10 from "../assets/img/project-10.png";
 import projImg11 from "../assets/img/project-11.png";
 import projImg12 from "../assets/img/project-13.png";
+import projImg13 from "../assets/img/project-14.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -56,6 +57,12 @@ export const Projects = () => {
       projectUrl: "https://github.com/EvilXpirit/movierecommender",
     },
     {
+      title: "Flappy Gojo Game",
+      description: "JavaScript Project",
+      imgUrl: projImg13,
+      projectUrl: "https://github.com/EvilXpirit/Flappy-Gojo-Game",
+    },
+    {
       title: "Portfolio Website",
       description: "React Js project",
       imgUrl: projImg6,
@@ -94,7 +101,8 @@ export const Projects = () => {
   ];
 
   const firstSixProjects = projects.slice(0, 6);
-  const remainingProjects = projects.slice(6);
+  const SecondSixProjects = projects.slice(6, 12);
+  const remainingProjects = projects.slice(12);
 
   return (
     <section className="projects" id="projects">
@@ -134,6 +142,20 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+                      <Row>
+                        {
+                          SecondSixProjects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                              />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="third">
                       <Row>
                         {
                           remainingProjects.map((project, index) => {
